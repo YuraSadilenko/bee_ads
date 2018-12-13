@@ -1,0 +1,21 @@
+.score {
+  display: flex;
+  justify-content: center;
+  background-color: $header-bg;
+  font-size: 2rem;
+  padding: 3rem 2rem;
+
+  &__level {
+    color: #fff;
+    margin-right: 2%;
+    font-size: 3rem;
+    font-weight: 700;
+  }
+
+  &__progress {
+    width: 25%;
+    height: auto;
+    margin-right: 2%;
+
+  }
+}
