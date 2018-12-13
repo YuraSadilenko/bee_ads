@@ -1,9 +1,19 @@
 .score {
   display: flex;
   justify-content: center;
-  background-color: $header-bg;
+  flex-direction: column;
+  background: url('../image/progress_bar/topbar.png');
+  background-size: 100%;
+  height: 100%;
   font-size: 2rem;
-  padding: 3rem 2rem;
+
+  &__wrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2rem 2rem 4rem;
+
+  }
 
   &__level {
     color: #fff;
@@ -16,6 +26,16 @@
     width: 25%;
     height: auto;
     margin-right: 2%;
-
   }
+
+  &__level-up {
+    margin-top: 1%;
+  }
+
+  &__money {
+    align-self: center;
+    font-size: 3rem;
+    color: $yellow-color;
+  }
+
 }
