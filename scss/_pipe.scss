@@ -4,14 +4,14 @@
     position: relative;
     transform: translateY(1%);
     width: 37%;
-    padding:  15% 0 0 5%;
+    padding: 15% 0 0 5%;
 
     &-exit {
       position: absolute;
       width: 35%;
       top: 50%;
       right: 0;
-      transform: translate(28%, 50%)
+      transform: translate(28%, 50%);
     }
   }
 

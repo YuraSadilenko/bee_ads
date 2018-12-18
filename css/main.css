@@ -459,4 +459,17 @@ body {
     transform: translate(28%, 50%); }
 
 .stock__block {
+  position: relative;
   width: 25%; }
+
+.stock__counter {
+  transform: translateX(10%);
+  width: 80%;
+  position: absolute;
+  top: 15%; }
+
+.stock__drop {
+  position: absolute;
+  left: 20%;
+  top: 20%;
+  width: 10%; }

@@ -1,6 +1,21 @@
 .stock {
 
   &__block {
+    position: relative;
     width: 25%;
+  }
+
+  &__counter {
+    transform: translateX(10%);
+    width: 80%;
+    position: absolute;
+    top: 15%;
+  }
+
+  &__drop {
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    width: 10%;
   }
 }
