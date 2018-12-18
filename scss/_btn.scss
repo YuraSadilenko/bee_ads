@@ -3,7 +3,32 @@
   color: $header-bg;
   text-decoration: none;
   background-color: $dark;
-  padding: 2rem 2.5rem;
+  padding: 1rem 1.5rem;
   border-radius: 1rem;
+  font-weight: 900; 
   outline: none;
+  transition: .2s;
+
+  &:hover {
+    background-color: $yellow-color;
+  }
+
+  &__double-money {
+    position: absolute;
+    top: 4.8rem;
+    display: inline-block;
+    background-color: $yellow-color-not-active;
+    border-radius: 0 0 1rem 0;
+    padding: 1rem 1.5rem;
+    line-height: 1.2;
+    color: $not-active-font;
+
+    &-heading {
+      font-weight: 900;
+    }
+
+    &-text {
+      font-weight: 700;
+    }
+  }
 }

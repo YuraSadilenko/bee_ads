@@ -1,41 +1,46 @@
 .score {
+  position: relative;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background: url('../image/progress_bar/topbar.png');
-  background-size: 100%;
-  height: 100%;
-  font-size: 2rem;
+  background: url('../image/progress_bar/topbar.png') no-repeat;
+  background-size: cover;
+  background-position: top;
 
   &__wrap {
     width: 100%;
     display: flex;
     justify-content: center;
-    padding: 2rem 2rem 4rem;
+    padding: 1rem .5rem 1rem;
 
   }
 
   &__level {
     color: #fff;
-    margin-right: 2%;
-    font-size: 3rem;
+    font-size: 1.5rem;
     font-weight: 700;
   }
 
   &__progress {
-    width: 25%;
+    width: 35%;
+    margin-left: 2%;
     height: auto;
-    margin-right: 2%;
   }
 
   &__level-up {
+    margin-left: 2%;
     margin-top: 1%;
   }
 
   &__money {
     align-self: center;
-    font-size: 3rem;
+    font-size: 1.5rem;
     color: $yellow-color;
+    padding-bottom: 1rem; 
+    font-weight: 900;
   }
 
+  &__double-money-wrap {
+
+  }
 }

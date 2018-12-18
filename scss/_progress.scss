@@ -24,14 +24,14 @@
   right: 0;
   color: $bg-color;
   display: block;
-  line-height: 21px;
+  line-height: 2.1rem;
   text-align: right;
 }
 
 .progress-bg {
   background: $bg-color;
   position: relative;
-  height: 1.2rem;
+  height: .8rem;
   border-radius: 1rem;
   margin-top: 3%; 
   overflow: hidden;
@@ -69,11 +69,12 @@
   position: absolute;
   top: 0;
   left: 0;
-    width: 0;
+  width: 0;
   -webkit-transition: width 1s linear;
   -moz-transition: width 1s linear;
   -ms-transition: width 1s linear;
   transition: width 1s linear;    
+
   &::after
   {
   -webkit-animation: progress_bar 0.8s linear infinite;
