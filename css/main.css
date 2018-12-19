@@ -37,6 +37,12 @@ body {
     .btn__double-money-text {
       font-weight: 700; }
 
+.level-up-arrow {
+  position: absolute;
+  top: 0;
+  right: -30%;
+  background-color: yellow; }
+
 .progress progress[value="0"] ~ .progress-bg .progress-bar {
   width: 0%; }
 
@@ -437,6 +443,7 @@ body {
     margin-left: 2%;
     height: auto; }
   .score__level-up {
+    position: relative;
     margin-left: 2%;
     margin-top: 1%; }
   .score__money {
@@ -470,6 +477,14 @@ body {
 
 .stock__drop {
   position: absolute;
+  display: flex;
+  flex-direction: row;
   left: 20%;
   top: 20%;
   width: 10%; }
+
+.stock__income {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-left: 100%; }

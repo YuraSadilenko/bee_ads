@@ -28,8 +28,10 @@
   }
 
   &__level-up {
+    position: relative;
     margin-left: 2%;
     margin-top: 1%;
+
   }
 
   &__money {
@@ -40,7 +42,4 @@
     font-weight: 900;
   }
 
-  &__double-money-wrap {
-
-  }
 }
